@@ -1,0 +1,117 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.294"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": false,
+        "projectType": "project",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "gitpod": true,
+        "title": {
+            "us": "Family Static API with Flask",
+            "es": "API Estática de Familia con Flask"
+        },
+        "slug": "family-static-api",
+        "status": "published",
+        "translations": [
+            "es",
+            "us"
+        ],
+        "preview": "https://github.com/breatheco-de/exercise-family-static-api/blob/master/preview.png?raw=true",
+        "solution": "https://github.com/breatheco-de/exercise-family-static-api/tree/solution",
+        "difficulty": "beginner",
+        "technologies": [
+            "flask",
+            "python",
+            "json",
+            "serialization",
+            "data-structures",
+            "rest",
+            "api"
+        ],
+        "duration": 8,
+        "template_url": "self",
+        "description": {
+            "us": "Build a family management API with Flask, focusing on creating efficient data structures to handle and manipulate family member information. In this project, you'll learn how to develop dynamic RESTful API endpoints, manage in-memory data, and handle JSON responses. Gain hands-on experience in Flask, data management, and API design",
+            "es": "Crea una API de gestión de familiares con Flask, enfocándote en desarrollar estructuras de datos eficientes para manejar y manipular la información de los miembros de la familia. En este proyecto, aprenderás a desarrollar puntos finales dinámicos de API RESTful, gestionar datos en memoria y manejar respuestas en formato JSON. Obtén experiencia práctica en Flask, gestión de datos y diseño de APIs."
+        },
+        "talents": [
+            {
+                "badge": "identator",
+                "points": 10
+            }
+        ],
+        "telemetry": {
+            "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=188"
+        }
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "python3",
+            "entry": "src/app.py",
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/datastructures.py",
+                    "name": "datastructures.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/test_solution.py",
+                    "name": "test_solution.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/utils.py",
+                    "name": "utils.py",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 714251593797641200
+}
